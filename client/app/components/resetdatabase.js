@@ -14,7 +14,7 @@ export default class ResetDatabase extends React.Component {
           document.location.reload(false);
         });
         xhr.send();
-      }}>Reset Mock DB</button>
+      }}>Reset DB</button>
     );
   }
 }
